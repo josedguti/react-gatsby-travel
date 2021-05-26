@@ -14,7 +14,7 @@ const Trips = () => {
               button
               name
               img {
-                childrenImageSharp {
+                childImageSharp {
                   fluid {
                     ...GatsbyImageSharpFluid
                   }
@@ -32,8 +32,8 @@ const Trips = () => {
             tripsArray.push(
                 <div key={index}>
                     <StaticImage 
-                    src={item.node.img.childrenImageSharp.fluid.src}
-                    fluid={item.node.img.childrenImageSharp.fluid}
+                    src={item.node.img.childImageSharp.fluid.src}
+                    fluid={item.node.img.childImageSharp.fluid}
                     />
                 </div>
             )
