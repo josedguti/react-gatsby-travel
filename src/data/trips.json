@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../assets/images/travel-1.jpg",
+        "alt": "Indonesia",
+        "name": "Indonesia",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/travel-2.jpg",
+        "alt": "Eiffel Tower",
+        "name": "Eiffel Tower",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/travel-3.jpg",
+        "alt": "Bali",
+        "name": "Bali",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/travel-4.jpg",
+        "alt": "Snowy Mountains",
+        "name": "Snowy Mountains",
+        "button": "View Destination"
+    }
+]
